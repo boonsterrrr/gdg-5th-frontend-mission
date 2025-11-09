@@ -2,21 +2,21 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 2rem;
+  padding: 16px 32px;
   border-bottom: 1px solid #e0e0e0;
 }
 .header-left {
   display: flex;
   align-items: center;
-  gap: 2rem;
+  gap: 32px;
 }
 .header-logo {
   height: 28px;
 }
 .header-left nav {
   display: flex;
-  gap: 1.5rem;
-  font-size: 0.9rem;
+  gap: 24px;
+  font-size: 14px;
   color: #5f6368;
 }
 .header-left nav div {
@@ -26,8 +26,8 @@
   background-color: #ffffff;
   border: 1px solid #dadce0;
   border-radius: 4px;
-  padding: 0.5rem 1rem;
-  font-size: 0.9rem;
+  padding: 8px 16px;
+  font-size: 14px;
   cursor: pointer;
 }
 .admin-button:hover {
