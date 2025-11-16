@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import "./SearchSection.css";
 
-const SearchSection: React.FC = () => {
-  const [searchTerm, setSearchTerm] = useState<string>("");
+const SearchSection = () => {
+  const [searchTerm, setSearchTerm] = useState("");
 
   const handleSearch = () => {
     console.log(searchTerm);
@@ -15,9 +15,7 @@ const SearchSection: React.FC = () => {
         placeholder="상품 검색..."
         className="search-input"
         value={searchTerm}
-        onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
-          setSearchTerm(e.target.value)
-        }
+        onChange={(e) => setSearchTerm(e.target.value)}
       />
       <button className="search-button" onClick={handleSearch}>
         검색

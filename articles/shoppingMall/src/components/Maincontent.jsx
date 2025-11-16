@@ -2,7 +2,7 @@ import React from "react";
 import logo from "../assets/gdg-logo.png";
 import "./MainContent.css";
 
-const MainContent: React.FC = () => {
+const MainContent = () => {
   return (
     <main className="main-content">
       <img src={logo} alt="Faded GDG Logo" className="faded-logo" />

@@ -1,10 +1,10 @@
 import React from "react";
-import Header from "./components/Header.tsx";
-import SearchSection from "./components/SearchSection.tsx";
-import MainContent from "./components/Maincontent.tsx";
+import Header from "./components/Header";
+import SearchSection from "./components/SearchSection";
+import MainContent from "./components/Maincontent";
 import "./App.css";
 
-const App: React.FC = () => {
+const App = () => {
   return (
     <div className="app-container">
       <Header />
