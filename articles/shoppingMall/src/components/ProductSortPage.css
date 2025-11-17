@@ -1,11 +1,13 @@
-.main-content {
+/* "상품 정렬" 페이지의 가로 배치 레이아웃 */
+.sort-page-content {
   flex-grow: 1;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  flex-direction: row; /* 가로 정렬 */
+  justify-content: center; /* 중앙 배치 */
   padding: 32px;
 }
 
+/* 오른쪽 상품 목록 스타일 (Page.css에서 가져옴) */
 .product-list-section {
   width: 600px;
 }

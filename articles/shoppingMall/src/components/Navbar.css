@@ -1,0 +1,10 @@
+.main-nav {
+  display: flex;
+  gap: 24px;
+  font-size: 14px;
+  color: #5f6368;
+}
+
+.main-nav div {
+  cursor: pointer;
+}

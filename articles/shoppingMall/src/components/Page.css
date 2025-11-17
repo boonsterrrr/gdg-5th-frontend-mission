@@ -1,0 +1,37 @@
+/* PriceRangePage와 ProductSortPage를 위한 공용 스타일 */
+.page-content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column; /* 아이템을 세로로 쌓음 */
+  padding: 32px;
+
+  /* PriceRangePage의 경우, 아이템(필터, 목록)을 위쪽, 중앙으로 정렬 */
+  align-items: center; /* 가로 중앙 정렬 */
+  justify-content: flex-start; /* 세로 위쪽 정렬 */
+}
+
+/* ProductSortPage의 텍스트를 중앙 정렬하기 위한 코드 (기존 기능 유지) */
+.page-content h2,
+.page-content p {
+  text-align: center;
+}
+
+/* MainContent.css에 있던 스타일 중
+  PriceRangePage에서도 필요한 스타일을 여기에 추가
+*/
+.product-list-section {
+  width: 600px;
+}
+
+.purchase-header {
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.purchase-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}

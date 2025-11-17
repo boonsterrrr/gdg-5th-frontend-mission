@@ -1,14 +1,21 @@
 import React from "react";
-import logo from "../assets/gdg-logo.png";
-import "./MainContent.css";
+import ProductItem from "./ProductItem.jsx";
+import CategoryFilter from "./CategoryFilter.jsx"; // 1. 새로 만든 컴포넌트 import
+import "./Maincontent.css";
 
-const MainContent = () => {
+const Maincontent = () => {
   return (
     <main className="main-content">
-      <img src={logo} alt="Faded GDG Logo" className="faded-logo" />
-      <p>검색 결과가 없습니다.</p>
+      <CategoryFilter />
+      <div className="product-list-section">
+        <div className="purchase-header">
+          <h2 className="purchase-title">내 구매 내역</h2>
+        </div>
+        <ProductItem name="원피스" price={1000} stock={13} />
+        <ProductItem name="청바지" price={1000} stock={13} />
+      </div>
     </main>
   );
 };
 
-export default MainContent;
+export default Maincontent;

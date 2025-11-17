@@ -1,0 +1,46 @@
+/* 1. "왼쪽" 부분(카테고리)의 전체 가로 크기와 오른쪽 여백 */
+.category-filter {
+  width: 200px;
+  margin-right: 32px; /* "오른쪽" 부분과의 사이 간격 */
+}
+
+/* '카테고리 선택' 버튼 스타일 */
+.filter-title-button {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 12px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  margin-bottom: 8px; /* 리스트가 열렸을 때 간격 */
+  text-align: center;
+  width: 100%;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.filter-title-button:hover {
+  background-color: #f8f8f8;
+}
+
+/* .category-list는 버튼들을 감싸는 div */
+.category-list {
+  /* 특별한 스타일 없음 */
+}
+
+/* '의류', '전자기기' 등 각 카테고리 버튼 스타일 */
+.category-button {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 8px;
+  background-color: #f0f0f0;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  font-size: 14px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.category-button:hover {
+  background-color: #e0e0e0;
+}

@@ -1,0 +1,68 @@
+.product-item {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 24px;
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 600px;
+  width: 100%;
+}
+/* ... (이하 CSS 코드는 이전 답변과 동일) ... */
+.product-info {
+  flex-grow: 1;
+}
+.product-name {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0 0 8px 0;
+}
+.product-price,
+.product-stock {
+  font-size: 14px;
+  color: #5f6368;
+  margin: 4px 0;
+}
+.product-controls {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.quantity-control {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.quantity-control button {
+  background-color: #fff;
+  border: none;
+  padding: 8px 12px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.quantity-control button:disabled {
+  color: #ccc;
+  cursor: not-allowed;
+}
+.quantity-control .quantity-display {
+  padding: 0 16px;
+  font-size: 16px;
+  min-width: 30px;
+  text-align: center;
+}
+.cart-button {
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.cart-button.disabled {
+  background-color: #b0b0b0;
+  cursor: not-allowed;
+}
