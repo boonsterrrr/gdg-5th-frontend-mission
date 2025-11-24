@@ -1,11 +1,13 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import logo from "../assets/gdg-logo.png";
 import Navbar from "./Navbar.jsx";
 import "./Header.css";
 
 const Header = ({ onNavClick }) => {
+  const navigate = useNavigate();
   const handleAdminClick = () => {
-    console.log("관리자 페이지 클릭");
+    navigate("/admin");
   };
 
   return (
